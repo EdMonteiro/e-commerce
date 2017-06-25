@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAAQ,8DAAmD;ACCvD,YAAI;EACA,KAAK,EAAE,MAAM;;ADGrB,IAAK;EACD,gBAAgB,EAAE,0BAA0B;EAC5C,eAAe,EAAE,eAAe",
-"sources": ["style.scss","_bascket.scss"],
+"mappings": "AACI,YAAI;EACA,KAAK,EAAE,MAAM;;ACGrB,IAAK;EACD,gBAAgB,EAAE,0BAA0B;EAC5C,eAAe,EAAE,eAAe",
+"sources": ["_bascket.scss","style.scss"],
 "names": [],
 "file": "style.css"
 }

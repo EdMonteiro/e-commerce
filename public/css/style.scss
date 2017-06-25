@@ -1,0 +1,9 @@
+@import "node_modules/bootstrap/dist/css/bootstrap.min.css";
+@import "nav";
+@import "section";
+@import "bascket";
+
+body {
+    background-image: url("../../../img/bg.png");
+    background-size: cover no-repeat;
+}

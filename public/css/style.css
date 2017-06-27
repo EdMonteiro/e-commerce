@@ -3,8 +3,11 @@
   border-bottom: solid 1px grey;
   padding-bottom: 5rem; }
 
-.bascket img {
-  width: 2.5rem; }
+.bascket {
+  text-align: center;
+  margin-top: 7rem; }
+  .bascket img {
+    width: 2.5rem; }
 
 body {
   background-image: url("../../../img/bg.png");

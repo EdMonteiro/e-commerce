@@ -1,12 +1,31 @@
 .main {
   margin: 15rem auto;
   border-bottom: solid 1px grey;
+  padding-top: 150px;
   padding-bottom: 5rem; }
+  .main #t-shirt {
+    position: relative;
+    width: 500px;
+    height: 405px;
+    background-image: url("../../../img/t-shirt.png");
+    background-position: center;
+    background-size: cover;
+    margin: auto; }
+  .main #inner-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 100px;
+    max-height: 100pc;
+    display: block;
+    margin: auto; }
 
-.bascket {
+.basket {
   text-align: center;
   margin-top: 7rem; }
-  .bascket img {
+  .basket img {
     width: 2.5rem; }
 
 body {

@@ -17,5 +17,14 @@
     "jquery": "^3.2.1",
     "live-server": "^1.2.0",
     "normalize.css": "^7.0.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdMonteiro/e-commerce.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EdMonteiro/e-commerce/issues"
+  },
+  "homepage": "https://github.com/EdMonteiro/e-commerce#readme"
 }

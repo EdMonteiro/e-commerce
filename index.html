@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>YouR-Shirt - eCommerce Website</title>
+    <title>You'R-Shirt - eCommerce Website</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">YouR-Shirt</a>
+          <a class="navbar-brand" href="#">You'R-Shirt</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -54,30 +54,46 @@
       </div><!-- /.container-fluid -->
     </nav>
 
-    <!--bascket section-->
-    <section class="bascket">
+    <!--basket section-->
+    <section class="basket">
       <div class="container">
-        <button type="button" class="btn btn-secondary btn-lg">Your Cart<img src="img/cart.png" alt="cart"><span id="numberOfItems">0</span></button>
+        <button type="button" class="btn btn-secondary btn-lg">Your Cart<img src="img/cart.svg" alt="cart"><span id="numberOfItems">0</span></button>
         <button type="button" class="btn btn-primary btn-lg">Checkout</button>
       </div>
     </section>
 
+
     <!--customize your shirt section-->
     <section class="main">
       <div class="container">
+        <p>Your Imagination, Your Creativity. No Boundaries!</p>
+        <!-- <div id="custom">
+          
+
+          <img src="img/t-shirt.png" alt="customizable t-shirt image" id="t-shirt">
+          <img src="img/inner-img.png" id="inner-img"> 
+
+          
+        </div> -->
+
+        <div id="t-shirt">
+          <img id="inner-img" src="img/inner-img.png">              
+        </div>
+
         <div class="row">
           <div class="col-xs-4 col-md-4">
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="color-chg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 T-shirt color
               </button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">White</a>
+                <a class="dropdown-item white" href="#">White</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Black</a>
+                <a class="dropdown-item black" href="#">Black</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Grey</a>
-                <a class="dropdown-item" href="#">Navy</a>
+                <a class="dropdown-item grey" href="#">Grey</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item navy" href="#">Navy</a>
 
               </div>
             </div>
@@ -85,29 +101,28 @@
             
           <div class="col-xs-4 col-md-4">
             <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown button
-              </button>
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Size</button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Small</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Medium</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Large</a>              
                 <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">XLarge</a>
               </div>
             </div>
           </div>
             
           <div class="col-xs-4 col-md-4">
             <div class="form-group">
-              <label for="inputFile">Add Your Picture/photo</label>
+              <label for="inputFile">Add Your Image</label>
               <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
               <small id="fileHelp" class="form-text text-muted">Please select a photo or picture to add to your customized shirt.</small>
             </div>
           </div>
 
-          <button type="button" class="btn btn-default">
+          <button type="button" class="btn btn-default" onClick="addToBasket">
             <p>Add</p>
             <span class="glyphicon glyphicon-ok-circle"></span>
           </button>
@@ -160,7 +175,11 @@
       
     </footer>
 
+
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <script src="public/js/addToBasket.js"></script>
+    <script src="public/js/t-shirt.color.js"></script>
   </body>
 </html>

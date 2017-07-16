@@ -1,0 +1,16 @@
+nav {
+	border: none;
+	margin: 0;
+	div, a, ul, li {
+		background-color: $blue;
+	}
+}
+
+nav.navbar {
+	background-color: $blue;
+	padding: 0;
+	margin: 0 auto;
+
+	// remove border-radius
+	border-radius: 0px;
+}

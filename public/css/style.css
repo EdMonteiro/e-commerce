@@ -1,9 +1,48 @@
-.main {
+.header {
+  padding: 0;
+  margin: 70px auto; }
+  .header .container .jumbotron {
+    width: 100%;
+    height: 600px;
+    padding: 0;
+    margin: 0; }
+    .header .container .jumbotron .header-img {
+      background-image: url("../../../img/collection1.png");
+      height: 100%;
+      width: auto;
+      margin: 0;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-color: white; }
+      .header .container .jumbotron .header-img .quote {
+        width: 185px;
+        float: right; }
+        .header .container .jumbotron .header-img .quote span:nth-child(1) {
+          color: #ADBEFF; }
+        .header .container .jumbotron .header-img .quote span:nth-child(3) {
+          color: #7bae9c; }
+        .header .container .jumbotron .header-img .quote span:nth-child(5) {
+          color: #575F7F; }
+
+nav {
+  border: none;
+  margin: 0; }
+  nav div, nav a, nav ul, nav li {
+    background-color: #575F7F; }
+
+nav.navbar {
+  background-color: #575F7F;
+  padding: 0;
+  margin: 0 auto;
+  border-radius: 0px; }
+
+.customize {
   margin: 15rem auto;
   border-bottom: solid 1px grey;
   padding-top: 150px;
   padding-bottom: 5rem; }
-  .main #t-shirt {
+  .customize #t-shirt {
     position: relative;
     width: 500px;
     height: 405px;
@@ -11,7 +50,7 @@
     background-position: center;
     background-size: cover;
     margin: auto; }
-  .main #inner-img {
+  .customize #inner-img {
     position: absolute;
     left: 0;
     top: 0;
@@ -22,15 +61,40 @@
     display: block;
     margin: auto; }
 
-.basket {
-  text-align: center;
-  margin-top: 7rem; }
-  .basket img {
-    width: 2.5rem; }
+.subSection {
+  background-color: #575F7F; }
+  .subSection .container {
+    text-align: center; }
+  .subSection .sub-section-img {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto; }
+  .subSection .imagine, .subSection .design, .subSection .create {
+    height: 200px;
+    width: 270px;
+    margin: 40px 15px; }
+  .subSection .imagine {
+    background-image: url("../../../img/collection4.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .subSection .design {
+    background-image: url("../../../img/collection.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .subSection .create {
+    background-image: url("../../../img/collection6.png");
+    background-size: contain;
+    background-repeat: no-repeat; }
+  .subSection h2 {
+    color: #575F7F;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #ADBEFF; }
 
-body {
-  background-image: url("../../../img/bg.png");
-  background-size: cover;
-  background-repeat: no-repeat; }
+html, body {
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

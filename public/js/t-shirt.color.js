@@ -15,16 +15,18 @@ $(document).ready(function() {
         $("#t-shirt").css("background-color", "navy");
     })
 
-});
+
+    
     // image to add to personalizerd t-shirt
-    // document.getElementById("input-image").onSubmit(function () {
+    // document.getElementById("input-image").submit(function () {
 
-    //     document.getElementById("inner-img").css("");
+    //     // document.getElementById("inner-img").css("");
+    //     $('#inner-img').prepend($('<img>',{id:'inner-img',src:'img/inner-img.png'}))
     // });
+});
 
-        document.getElementById("input-image").addEventListener("submit", myFunction);
+        // document.getElementById("input-image").addEventListener("submit", myFunction);
 
-        function myFunction() {
-            alert("The form was submitted");
-        }
-
+        // function myFunction() {
+        //     alert("The form was submitted");
+        // }

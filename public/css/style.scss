@@ -1,13 +1,11 @@
+@import "header";
 @import "nav";
-@import "main";
-@import "basket";
+@import "customize";
 @import "base/colors";
+@import "sub-section";
 
 
-body {
-    background-image: url("../../../img/bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+html, body {
+	margin: 0;
+	padding: 0;
 }
-
-

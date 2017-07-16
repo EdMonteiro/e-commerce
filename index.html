@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>You'R-Shirt - eCommerce Website</title>
+    <title>You'R Shirt - eCommerce Website</title>
 
     <!-- Bootstrap -->
     <link rel="stylesheet" type="text/css" href="public/css/style.css">
@@ -17,8 +17,8 @@
   </head>
   <body>
     
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -27,7 +27,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">You'R-Shirt</a>
+          <a class="navbar-brand" href="#">You'R Shirt</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,23 +50,77 @@
             </li>
             <li><a href="#">About</a></li>
           </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+          <ul class="nav navbar-nav navbar-right">
+              <li><a href="#"><img src="img/cart.svg" alt="cart"></a></li>
+              <li><a href="#">Checkout</a></li>
+            </ul>
+        </div>
+      </div>
     </nav>
 
-    <!--basket section-->
-    <section class="basket">
+    <!--basket section
+      <section class="basket">
       <div class="container">
         <button type="button" class="btn btn-secondary btn-lg">Your Cart<img src="img/cart.svg" alt="cart"><span id="numberOfItems">0</span></button>
         <button type="button" class="btn btn-primary btn-lg">Checkout</button>
       </div>
+    </section> -->
+
+    <div class="header">
+      <div class="container">
+        <div class="jumbotron">
+          <div class="header-img">
+            <div class="quote">
+              <p>
+                <span> Your Imagination.</span><br>
+                <span> Your Creativity.</span><br> 
+                <span> No Boundaries!</span>
+              </p>
+            </div>
+          <!-- <div class="quote">
+            <p>Your Imagination.<br> Your Creativity.<br> No Boundaries!</p> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="subSection">
+      <div class="container">
+
+      <div class="sub-section-img">
+        <div class="imagine">
+          <h2>Imagine</h2>
+        </div>
+        <div class="design">
+          <h2>Design</h2>
+        </div>
+        <div class="create">
+          <h2>Create</h2>
+        </div>
+      </div>
+        <!-- <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <div class="imagine">
+              <h2>Imagine</h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="design">
+              <h2>Design</h2>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <div class="create">
+              <h2>Create</h2>
+            </div>
+          </div>
+        </div> -->
+      </div>
     </section>
 
-
     <!--customize your shirt section-->
-    <section class="main">
+    <section class="customize">
       <div class="container">
-        <p>Your Imagination, Your Creativity. No Boundaries!</p>
         <!-- <div id="custom">
           
 
@@ -117,7 +171,7 @@
           <div class="col-xs-4 col-md-4">
             <div class="form-group">
               <label for="inputFile">Add Your Image</label>
-              <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+              <input type="file" class="form-control-file" id="input-image" aria-describedby="fileHelp">
               <small id="fileHelp" class="form-text text-muted">Please select a photo or picture to add to your customized shirt.</small>
             </div>
           </div>
@@ -148,8 +202,7 @@
 
         <div class="row align-items-start">
           <div class="col-sm-6 col-lg-3"><img src="img/rayban.png" alt="Sunglasses"></div>
-          <div class="col-sm-6 col-lg-6">Ray-Ban Rayban Clubmaster Sunglasses
-</div>
+          <div class="col-sm-6 col-lg-6">Ray-Ban Rayban Clubmaster Sunglasses</div>
           <div class="col-sm-12 col-lg-3">
             <button type="button" class="btn btn-default">
               <span class="glyphicon glyphicon-plus-sign"></span>
@@ -181,5 +234,11 @@
 
     <script src="public/js/addToBasket.js"></script>
     <script src="public/js/t-shirt.color.js"></script>
+
+    <!-- trying fine uploader -->
+    <script>
+        // Some options to pass to the uploader are discussed on the next page
+        // var uploader = new qq.FineUploaderBasic({...})
+    </script>
   </body>
 </html>

@@ -3,9 +3,11 @@
 @import "customize";
 @import "base/colors";
 @import "sub-section";
-
+@import "promotional";
+@import "footer";
 
 html, body {
 	margin: 0;
 	padding: 0;
+	// min-width: 320px;
 }

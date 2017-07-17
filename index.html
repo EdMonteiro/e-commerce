@@ -42,9 +42,9 @@
                 <li><a href="#">Girls</a></li>
                 <li><a href="#">Boys</a></li>
                 <li><a href="#">Baby</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Acessory</a></li>
-                <li role="separator" class="divider"></li>
+                 <li role="separator" class="divider"></li> 
+                <li id="otherItems"><a href="#">Acessory</a></li>
+                 <li role="separator" class="divider"></li> 
                 <li><a href="#">Luggage</a></li>
               </ul>
             </li>
@@ -77,8 +77,6 @@
                 <span> No Boundaries!</span>
               </p>
             </div>
-          <!-- <div class="quote">
-            <p>Your Imagination.<br> Your Creativity.<br> No Boundaries!</p> -->
           </div>
         </div>
       </div>
@@ -86,55 +84,38 @@
 
     <section class="subSection">
       <div class="container">
-
-      <div class="sub-section-img">
-        <div class="imagine">
-          <h2>Imagine</h2>
-        </div>
-        <div class="design">
-          <h2>Design</h2>
-        </div>
-        <div class="create">
-          <h2>Create</h2>
-        </div>
-      </div>
-        <!-- <div class="row">
-          <div class="col-xs-12 col-md-4">
-            <div class="imagine">
-              <h2>Imagine</h2>
-            </div>
+        <div class="sub-section-img">
+          <div class="imagine">
+            <h2>Imagine</h2>
           </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="design">
-              <h2>Design</h2>
-            </div>
+          <div class="design">
+            <h2>Design</h2>
           </div>
-          <div class="col-xs-12 col-md-4">
-            <div class="create">
-              <h2>Create</h2>
-            </div>
+          <div class="create">
+            <h2>Create</h2>
           </div>
-        </div> -->
+        </div>
       </div>
     </section>
 
     <!--customize your shirt section-->
     <section class="customize">
-      <div class="container">
-        <!-- <div id="custom">
-          
+      <div class="shirt-icon">
+        <div class="container">
+          <!-- <div id="custom">
+            <img src="img/t-shirt.png" alt="customizable t-shirt image" id="t-shirt">
+            <img src="img/inner-img.png" id="inner-img"> 
+          </div> -->
 
-          <img src="img/t-shirt.png" alt="customizable t-shirt image" id="t-shirt">
-          <img src="img/inner-img.png" id="inner-img"> 
-
-          
-        </div> -->
-
-        <div id="t-shirt">
-          <img id="inner-img" src="img/inner-img.png">              
+          <div id="t-shirt">
+            <img id="inner-img" src="img/inner-img.png">              
+          </div>
         </div>
+      </div>
 
-        <div class="row">
+      <div class="selection">
+        <div class="container">
+          <div class="row">
           <div class="col-xs-4 col-md-4">
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="color-chg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -182,13 +163,14 @@
           </button>
 
 
+          </div>
         </div>
       </div>
     </section>
 
 
     <!--promotional section-->
-    <section class="promotions">
+    <section class="promotional">
       <div class="container">
         <div class="row align-items-start">
           <div class="col-sm-6 col-lg-3"><img src="img/watch.png" alt="watch"></div>
@@ -225,7 +207,24 @@
 
 <!--footer-->
     <footer>
-      
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-4 col-sm-2 col-sm-offset-6">
+            <a href="http://www.edmonteiro.xyz/">
+              <div class="profilePic">
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-xs-4 col-sm-2">
+            <a href=""><img src="../../../img/github.svg" alt="GitHub project page"></a>
+          </div>
+          
+          <div class="col-xs-4 col-sm-2">
+            <a href=""><img src="../../../img/linkedin.svg" alt="LinkedIn page"></a>
+          </div>
+        </div>
+      </div>
     </footer>
 
 
@@ -234,11 +233,6 @@
 
     <script src="public/js/addToBasket.js"></script>
     <script src="public/js/t-shirt.color.js"></script>
-
-    <!-- trying fine uploader -->
-    <script>
-        // Some options to pass to the uploader are discussed on the next page
-        // var uploader = new qq.FineUploaderBasic({...})
-    </script>
+    
   </body>
 </html>

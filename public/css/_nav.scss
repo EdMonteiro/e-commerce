@@ -1,16 +1,32 @@
 nav {
+	background-color: $grey3;
 	border: none;
 	margin: 0;
 	div, a, ul, li {
-		background-color: $blue;
+		background-color: $grey3;
 	}
 }
 
 nav.navbar {
-	background-color: $blue;
-	padding: 0;
-	margin: 0 auto;
+	background-color: $grey3;
+	.dropdown {
+		background-color: $grey3;
+		.dropdown-menu {
+			background-color: $grey3;
+			// .otherItems a {
+			// 	border: 1px solid black;
+			// }
+		}
+		.dropdown-menu a:hover {
+			background-color: $grey4;
+			// li.divider:hover {
+			// background-color: $grey4;
+			// }
+		}
+	}
+}
+// 	padding: 0;
+// 	margin: 0 auto;
 
 	// remove border-radius
-	border-radius: 0px;
-}
+	// border-radius: 0px;

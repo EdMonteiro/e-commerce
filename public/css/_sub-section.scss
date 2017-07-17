@@ -1,29 +1,3 @@
-// .subSection {
-// 	text-align: center;
-
-// 	.imagine, .design, .create {
-// 		height: 270px;
-// 		width: 270px;		
-// 		text-align: center;
-// 	}
-// 	.imagine {
-// 		background-image: url("../../../img/collection4.png");
-// 		background-size: contain;
-// 		background-repeat: no-repeat;
-// 	}
-// 	.design {
-// 		background-image: url("../../../img/collection.png");
-// 		background-size: contain;
-// 		background-repeat: no-repeat;
-// 	}
-// 	.create {
-// 		background-image: url("../../../img/collection6.png");
-// 		background-size: contain;
-// 		background-repeat: no-repeat;
-// 	}
-// }
-
-
 .subSection {
 	background-color: $blue;
 
@@ -43,20 +17,21 @@
 				height: 200px;
 				width: 270px;	
 				margin: 40px 15px;
+				border-radius: 10px;
 			}
 			.imagine {
 				background-image: url("../../../img/collection4.png");
-				background-size: contain;
+				background-size: cover;
 				background-repeat: no-repeat;
 			}
 			.design {
 				background-image: url("../../../img/collection.png");
-				background-size: contain;
+				background-size: cover;
 				background-repeat: no-repeat;
 			}
 			.create {
 				background-image: url("../../../img/collection6.png");
-				background-size: contain;
+				background-size: cover;
 				background-repeat: no-repeat;
 			}
 				h2 {

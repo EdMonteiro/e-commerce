@@ -1,4 +1,4 @@
-// test jquery change t-shirt color on click
+//  change t-shirt color on click -jquery
 $(document).ready(function() {
 
     // t-shirt colors to choose from
@@ -15,18 +15,22 @@ $(document).ready(function() {
         $("#t-shirt").css("background-color", "navy");
     })
 
-
-    
-    // image to add to personalizerd t-shirt
-    // document.getElementById("input-image").submit(function () {
-
-    //     // document.getElementById("inner-img").css("");
-    //     $('#inner-img').prepend($('<img>',{id:'inner-img',src:'img/inner-img.png'}))
-    // });
 });
 
-        // document.getElementById("input-image").addEventListener("submit", myFunction);
 
-        // function myFunction() {
-        //     alert("The form was submitted");
-        // }
+
+
+// Upload image to be printed
+document.getElementById('getval').addEventListener('change', readURL, true);
+
+function readURL(){
+	var file = document.getElementById("getval").files[0];
+	var reader = new FileReader();
+	reader.onloadend = function(){
+		document.getElementById('clock').style.backgroundImage = "url(" + reader.result + ")";        
+		}
+	if(file){
+		reader.readAsDataURL(file);
+	}else{
+	}
+}

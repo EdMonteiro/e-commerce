@@ -25,43 +25,26 @@
         .header .container .jumbotron .header-img .quote span:nth-child(5) {
           color: #282d48; }
 
-nav {
-  background-color: #C8C9CC;
-  border: none;
-  margin: 0; }
-  nav div, nav a, nav ul, nav li {
-    background-color: #C8C9CC; }
-
-nav.navbar {
-  background-color: #C8C9CC; }
-  nav.navbar .dropdown {
-    background-color: #C8C9CC; }
-    nav.navbar .dropdown .dropdown-menu {
-      background-color: #C8C9CC; }
-    nav.navbar .dropdown .dropdown-menu a:hover {
-      background-color: #E1E2E5; }
-
 .customize {
   margin: 70px auto; }
+  .customize .shirt-icon .container {
+    text-align: center; }
   .customize #t-shirt {
-    position: relative;
     width: 300px;
     height: 250px;
     background-image: url("../../../img/t-shirt.png");
     background-position: center;
     background-size: cover;
-    margin: auto;
-    margin-bottom: 50px; }
-  .customize #inner-img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    max-width: 100px;
-    max-height: 100pc;
-    display: block;
-    margin: auto; }
+    margin-bottom: 50px;
+    display: inline-block; }
+  .customize #clock {
+    background-image: url("../../../img/inner-img.png");
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin-top: 80px; }
 
 .subSection {
   background-color: #282d48; }
@@ -77,18 +60,19 @@ nav.navbar {
   .subSection .imagine, .subSection .design, .subSection .create {
     height: 200px;
     width: 270px;
-    margin: 40px 15px; }
+    margin: 40px 15px;
+    border-radius: 10px; }
   .subSection .imagine {
     background-image: url("../../../img/collection4.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat; }
   .subSection .design {
     background-image: url("../../../img/collection.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat; }
   .subSection .create {
     background-image: url("../../../img/collection6.png");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat; }
   .subSection h2 {
     color: #282d48;

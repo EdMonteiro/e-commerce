@@ -12,7 +12,7 @@
       background-size: cover;
       padding: 0; }
       .header div.container-fluid .header-img div.navigation {
-        background-color: rgba(41, 43, 44, 0.3);
+        background-color: rgba(41, 43, 44, 0.4);
         width: 100%; }
 
 .fa.fa-shopping-cart {
@@ -25,8 +25,8 @@
 button.btn:hover {
   background-color: #fff; }
 
-div.navbar {
-  background-color: rgba(41, 43, 44, 0.3); }
+nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
+  background-color: transparent !important; }
 
 .customize {
   margin: 70px auto; }

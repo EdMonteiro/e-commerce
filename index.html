@@ -16,51 +16,50 @@
     
   </head>
   <body>
-    
-    <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
-      <div class="container">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">Navbar</a>
-
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Checkout</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-    <!--basket section
-      <section class="basket">
-      <div class="container">
-        <button type="button" class="btn btn-secondary btn-lg">Your Cart<img src="img/cart.svg" alt="cart"><span id="numberOfItems">0</span></button>
-        <button type="button" class="btn btn-primary btn-lg">Checkout</button>
-      </div>
-    </section> -->
-
-    <div class="header">
-      <div class="container">
-        <div class="jumbotron">
-          <div class="header-img">
-            <div class="quote">
-              <p>
+    <!-- <div class="quote">
+               <p>
                 <span> Your Imagination.</span><br>
                 <span> Your Creativity.</span><br> 
                 <span> No Boundaries!</span>
-              </p>
+              </p> 
+            </div> -->
+
+    <div class="header">
+      <div class="container-fluid">
+        <div class="header-img">
+          <div class="navigation">
+            <div class="container">
+              <nav class="navbar navbar-toggleable-md ">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">Yo'R Shirt</a>
+                <div class="collapse navbar-collapse" id="navbarText">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#" id="home"><i id="home" class="fa fa-home" aria-hidden="true"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                      <!--create a contacte page with this info  -->
+                      <!--Please note that this web site was created for educational purposes (practice), if you want to contact the page's creator, please refer to the link bellow.  -->
+                      <!--link to contact form and refer portfolio  -->
+                    </li>
+                  </ul>
+                  <div class="basket">
+                    <a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>            
+                    <button class="btn btn-default" type="submit">Checkout</button>
+                  </div>  
+                </div>
+              </nav>
             </div>
           </div>
         </div>
       </div>
+      
     </div>
 
     <section class="subSection">
@@ -85,7 +84,7 @@
         <div class="container">
           
           <div id="t-shirt">
-            <div id='clock'></div>
+            <div id='inner-img'></div>
 
             <!--<img id="inner-img" src="img/inner-img.png">-->
           </div>
@@ -102,11 +101,8 @@
               </button>
               <div class="dropdown-menu">
                 <a class="dropdown-item white" href="#">White</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item black" href="#">Black</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item grey" href="#">Grey</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item navy" href="#">Navy</a>
 
               </div>
@@ -118,11 +114,8 @@
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Size</button>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                 <a class="dropdown-item" href="#">Small</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Medium</a>
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">Large</a>              
-                <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="#">XLarge</a>
               </div>
             </div>
@@ -211,6 +204,7 @@
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/177767aaa0.js"></script>
 
     <script src="public/js/addToBasket.js"></script>
     <script src="public/js/t-shirt.color.js"></script>

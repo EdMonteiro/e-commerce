@@ -9,8 +9,7 @@
       background-image: url("../../../img/header-img.jpg");
       background-position: center;
       background-repeat: no-repeat;
-      background-size: cover;
-      padding: 0; }
+      background-size: cover; }
       .header div.container-fluid .header-img div.navigation {
         background-color: rgba(41, 43, 44, 0.4);
         width: 100%; }
@@ -20,7 +19,7 @@
   color: #ccc; }
 
 .fa.fa-shopping-cart:hover {
-  color: #C8C9CC; }
+  color: #fff; }
 
 button.btn:hover {
   background-color: #fff; }
@@ -88,14 +87,15 @@ nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
 
 footer {
   margin: 20px auto; }
-  footer img {
-    width: 48px;
-    height: 48px; }
   footer .profilePic {
     width: 48px;
     height: 48px;
     background-image: url("../../../img/ProfilePicture.JPG");
-    background-size: cover; }
+    background-size: cover;
+    border-radius: 4px; }
+  footer img {
+    width: 48px;
+    height: 48px; }
 
 html, body {
   margin: 0;

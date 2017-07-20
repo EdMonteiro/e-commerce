@@ -87,15 +87,12 @@ nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
 
 footer {
   margin: 20px auto; }
-  footer .profilePic {
-    width: 48px;
-    height: 48px;
-    background-image: url("../../../img/ProfilePicture.JPG");
-    background-size: cover;
-    border-radius: 4px; }
+  footer .col-4 {
+    text-align: center !important; }
   footer img {
     width: 48px;
-    height: 48px; }
+    height: 48px;
+    border-radius: 5px; }
 
 html, body {
   margin: 0;

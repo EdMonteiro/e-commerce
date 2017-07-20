@@ -1,16 +1,30 @@
-
-.fa.fa-shopping-cart {
-    padding-right: 20px;
-    color: #ccc;
-}
-.fa.fa-shopping-cart:hover  {
-    color: $grey2;
-}
-
-button.btn:hover {
-    background-color: $grey2;
-}
-
 nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
-    background-color: transparent !important;
+		background-color: transparent !important;
+		
+
+	.basket {
+		.cartItems {
+			display: inline-block;
+
+			.fa.fa-shopping-cart {
+				// padding-right: 20px;
+				color: $grey;
+				display: inline-block;
+			}
+			.fa.fa-shopping-cart:hover  {
+					color: $grey2;
+			}
+
+			p {
+				display: inline-block;
+				padding-right: 20px;
+				color: $grey;
+			}
+		}
+		
+		button.btn:hover {
+				background-color: $grey2;
+				cursor: pointer;
+		}
+	}
 }

@@ -14,21 +14,27 @@
         background-color: rgba(41, 43, 44, 0.4);
         width: 100%; }
 
-.fa.fa-shopping-cart {
-  padding-right: 20px;
-  color: #ccc; }
-
-.fa.fa-shopping-cart:hover {
-  color: #fff; }
-
-button.btn:hover {
-  background-color: #fff; }
-
 nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
   background-color: transparent !important; }
+  nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse .basket .cartItems {
+    display: inline-block; }
+    nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse .basket .cartItems .fa.fa-shopping-cart {
+      color: #ccc;
+      display: inline-block; }
+    nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse .basket .cartItems .fa.fa-shopping-cart:hover {
+      color: #fff; }
+    nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse .basket .cartItems p {
+      display: inline-block;
+      padding-right: 20px;
+      color: #ccc; }
+  nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse .basket button.btn:hover {
+    background-color: #fff;
+    cursor: pointer; }
 
 .customize {
-  margin: 70px auto; }
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: whitesmoke; }
   .customize .shirt-icon .container {
     text-align: center; }
   .customize #t-shirt {
@@ -37,6 +43,7 @@ nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
     background-image: url("../../../img/t-shirt.png");
     background-position: center;
     background-size: cover;
+    background-color: white;
     margin-bottom: 50px;
     display: inline-block; }
   .customize #inner-img {
@@ -49,7 +56,7 @@ nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
     margin-top: 80px; }
 
 .subSection {
-  background-color: #282d48; }
+  background-color: white; }
   .subSection .container {
     text-align: center; }
   .subSection .sub-section-img {
@@ -77,16 +84,17 @@ nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
     background-size: cover;
     background-repeat: no-repeat; }
   .subSection h2 {
-    color: #282d48;
+    color: #292b2c;
     font-weight: bold;
-    text-shadow: 2px 2px 2px #ADBEFF; }
+    text-shadow: 2px 2px 2px #7D7E7F; }
 
 .promotional {
-  background-color: #282d48;
-  color: white; }
+  background-color: white;
+  color: #292b2c; }
 
 footer {
-  margin: 20px auto; }
+  margin: 20px auto;
+  background-color: whitesmoke; }
   footer .col-4 {
     text-align: center !important; }
   footer img {

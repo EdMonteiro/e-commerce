@@ -93,8 +93,9 @@ nav.navbar.navbar-toggleable-md.navbar-inverse.bg-inverse {
   color: #292b2c; }
 
 footer {
-  margin: 20px auto;
-  background-color: whitesmoke; }
+  background-color: whitesmoke;
+  padding-top: 3rem;
+  padding-bottom: 3rem; }
   footer .col-4 {
     text-align: center !important; }
   footer img {

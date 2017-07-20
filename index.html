@@ -23,7 +23,7 @@
                 <span> No Boundaries!</span>
               </p> 
             </div> -->
-
+<!-- =================================================================== -->
     <div class="header">
       <div class="container-fluid">
         <div class="header-img">
@@ -52,7 +52,7 @@
                   <div class="basket">
                     <div class="cartItems">
                       <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-                      <p id="numItems">0</p>
+                      <p id="numItems"></p>
                     </div>
                     <a href="#">
                       <button class="btn btn-default" type="submit">Checkout</button>
@@ -64,8 +64,9 @@
           </div>
         </div>
       </div>
-      
     </div>
+
+<!-- =================================================================== -->
 
     <section class="subSection">
       <div class="container">
@@ -83,6 +84,9 @@
       </div>
     </section>
 
+
+<!-- =================================================================== -->
+
     <!--customize your shirt section-->
     <section class="customize">
       <div class="shirt-icon">
@@ -99,53 +103,49 @@
       <div class="selection">
         <div class="container">
           <div class="row">
-          <div class="col-xs-4 col-md-4">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="color-chg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                T-shirt color
-              </button>
-              <div class="dropdown-menu">
-                <a class="dropdown-item white" href="#">White</a>
-                <a class="dropdown-item black" href="#">Black</a>
-                <a class="dropdown-item grey" href="#">Grey</a>
-                <a class="dropdown-item navy" href="#">Navy</a>
-
+            <div class="col-xs-4 col-md-4">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="color-chg" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  T-shirt color
+                </button>
+                <div class="dropdown-menu">
+                  <a class="dropdown-item white" href="#">White</a>
+                  <a class="dropdown-item black" href="#">Black</a>
+                  <a class="dropdown-item grey" href="#">Grey</a>
+                  <a class="dropdown-item navy" href="#">Navy</a>
+                </div>
               </div>
             </div>
-          </div>
-            
-          <div class="col-xs-4 col-md-4">
-            <div class="dropdown">
-              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Size</button>
-              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Small</a>
-                <a class="dropdown-item" href="#">Medium</a>
-                <a class="dropdown-item" href="#">Large</a>              
-                <a class="dropdown-item" href="#">XLarge</a>
+              
+            <div class="col-xs-4 col-md-4">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Size</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item s" href="#">Small</a>
+                  <a class="dropdown-item medium" href="#">Medium</a>
+                  <a class="dropdown-item large" href="#">Large</a>              
+                  <a class="dropdown-item xlarge" href="#">XLarge</a>
+                </div>
               </div>
             </div>
-          </div>
-            
-          <div class="col-xs-4 col-md-4">
-            <div class="form-group">
-              <label for="inputFile">Add Your Image</label>
-              <input type="file" class="form-control-file" id="getval" aria-describedby="fileHelp">
-              <small id="fileHelp" class="form-text text-muted">Please 
-                select a photo or picture to add to your customized shirt.</small>
+              
+            <div class="col-xs-4 col-md-4">
+              <div class="form-group">
+                <label for="inputFile">Add Your Image</label>
+                <input type="file" class="form-control-file" id="getval" aria-describedby="fileHelp">
+                <small id="fileHelp" class="form-text text-muted">Please 
+                  select a photo or picture to add to your customized shirt.</small>
+              </div>
             </div>
-          </div>
 
-          <button type="button" class="btn btn-default" onClick="addToBasket">
-            <p>Add</p>
-            <span class="glyphicon glyphicon-ok-circle"></span>
-          </button>
-
-
+            <button type="button" class="btn btn-default" onclick="addToBasket()">Add</button>
+            <p>Price: 9.99$ p/ t-shirt</p>
           </div>
         </div>
       </div>
     </section>
 
+<!-- =================================================================== -->
 
     <!--promotional section-->
     <section class="promotional">
@@ -155,7 +155,7 @@
           <div class="col-sm-6 col-lg-6">Armani Exchange Connected Blue Dial Blue Silicone Smart Watch</div>
           <div class="col-sm-12 col-lg-3">
             <button type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-plus-sign"></span>
+              <i class="fa fa-plus-square" aria-hidden="true"></i>
             </button>
           </div>
         </div>
@@ -165,7 +165,7 @@
           <div class="col-sm-6 col-lg-6">Ray-Ban Rayban Clubmaster Sunglasses</div>
           <div class="col-sm-12 col-lg-3">
             <button type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-plus-sign"></span>
+              <i class="fa fa-plus-square" aria-hidden="true"></i>
             </button>
           </div>       
         </div>
@@ -175,12 +175,14 @@
           <div class="col-sm-6 col-lg-6">Mens Casual Distressed Belt</div>
           <div class="col-sm-12 col-lg-3">
             <button type="button" class="btn btn-default">
-              <span class="glyphicon glyphicon-plus-sign"></span>
+              <i class="fa fa-plus-square" aria-hidden="true"></i>
             </button>
           </div>
         </div>
       </div>
     </section>
+
+<!-- =================================================================== -->
 
 
 <!--footer-->
@@ -207,6 +209,9 @@
     <!-- col-sm-2 col-sm-offset-6
     col-sm-2
     col-sm-2 -->
+
+
+<!-- =================================================================== -->
 
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/tether/dist/js/tether.min.js"></script>
